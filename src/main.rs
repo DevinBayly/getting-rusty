@@ -7,9 +7,9 @@ struct container {
 }
 
 fn main() {
-    let s = container{
-        el:String::new()
-    };
-
-    println!("Hello, Marcos!!");
+    //creating a rectangle and calculating the area
+    //
+    let w = 50;
+    let h = 50;
+    println!("width x height:{}",w*h);
 }
