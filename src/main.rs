@@ -9,7 +9,11 @@ struct container {
 fn main() {
     //creating a rectangle and calculating the area
     //
-    let w = 50;
-    let h = 50;
-    println!("width x height:{}",w*h);
+    let shape = (55,50);
+    println!("width x height:{}",area(shape));
+
+}
+
+fn area(s:(i32,i32)) -> i32{
+    s.0*s.1
 }
